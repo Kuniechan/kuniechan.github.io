@@ -1,8 +1,6 @@
 body {
-	text-align: left;
-	font-size: xx-large;
-	background-image: url("https://i.pinimg.com/originals/69/99/c5/6999c5fddeb8a3fe2bc3012f2a67b3f8.jpg");
-	background-attachment: fixed;
+	background-image: url("https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?h=1000&w=1500&fit=crop&mark=https%3A%2F%2Fassets.imgix.net%2F~text%3Ftxtclr%3Dfff%26txt%3DFree+Website+Background+Photos%26txtsize%3D120%26txtpad%3D20%26bg%3D80000000%26txtfont%3DAvenir-Heavy%26txtalign%3Dcenter%26w%3D1300&markalign=center%2Cmiddle&txt=pexels.com&txtalign=center&txtsize=60&txtclr=eeffffff&txtfont=Avenir-Heavy&txtshad=10");
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -10,15 +8,31 @@ body {
 h1 {
 	color: #FF0000;
 	margin: 0 0 0 0;
+	font-size: xx-large;
 }
 
 h2 {
 	color: #FF0000;
 	margin: 0 0 0 0;
+	font-size: xx-large;
 }
 
 .bild1 {
-	position: relative;
-	;
+    max-width: 100%;
+    max-height: 100vh;
+    height: auto;
 }
 
+div.emoji {
+    position: fixed;
+    left: 1;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+img.emoji {
+    max-width: 30%;
+    max-height: 30%;
+}
