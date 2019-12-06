@@ -19,10 +19,12 @@ p {
 
 button {
     background-color: #f2eeed;
-    color: #612f98;
-    border: 5px solid #211d31;
-    border-radius: 25px;
+    color: red;
+    border: 5px solid black;
+    border-radius: 50px;
     font-family: fantasy;
+    font-size: 50px;
+    box-shadow: 5px 5px 5px black;
 }
 
 figure {
