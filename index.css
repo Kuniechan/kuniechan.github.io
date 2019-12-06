@@ -1,0 +1,33 @@
+* {
+    margin-left: 7px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2eeed;
+    font-family: century gothic;
+}
+
+h1 {
+    color: #612f98;
+    font-family: monospace
+}
+
+p {
+    color: #6e729f;
+}
+
+button {
+    background-color: #f2eeed;
+    color: #612f98;
+    border: 5px solid #211d31;
+    border-radius: 25px;
+    font-family: fantasy;
+}
+
+figure {
+    color: #612f98;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-right: 2em;
+}
