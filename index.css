@@ -1,6 +1,7 @@
 * {
-    margin-left: 7px;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -8,23 +9,34 @@ body {
     font-family: century gothic;
 }
 
-h1 {
+.logo h1 {
     color: #612f98;
-    font-family: monospace
+    font-family: Impact;
+    text-align: center;
+    font-size: 50px;
 }
 
 p {
     color: #6e729f;
+    margin-left: 20px;
 }
 
-button {
+.bruh button {
     background-color: #f2eeed;
-    color: red;
+    color: gray;
     border: 5px solid black;
-    border-radius: 50px;
     font-family: fantasy;
     font-size: 50px;
     box-shadow: 5px 5px 5px black;
+    padding: 5px;
+    border-radius: 500px;
+}
+
+.bruh button:active {
+    margin-right: -5px;
+    margin-bottom: -5px;
+    box-shadow: 0px 0px 0px black;
+    color: red;
 }
 
 figure {
@@ -32,4 +44,44 @@ figure {
     border: 2px solid black;
     border-radius: 5px;
     margin-right: 2em;
+    float: right;
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    margin-left: 50px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.navbar li {
+    float: left;
+}
+  
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-right: 2px solid #612f98;
+    border-top: 2px solid #612f98
+}
+  
+.navbar li a:hover {
+    background-color: #612f98;
+}
+
+.navbar .active {
+    background-color: #612f98;
+}
+
+.bruh {
+    text-align: center;
+    margin-top: 20px;
 }

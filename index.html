@@ -9,16 +9,22 @@
         <link rel="icon" href="bilder/honk honk icon.png">
         <link rel="stylesheet" href="index.css">
     </head>
+    
     <body>
-        <ul>
-            <li><a href="index.html">Startseite</a></li>
-            <li><a href="beschreibung.html">Über uns</a></li>
-            <li><a href="spenden.html">Tieren helfen</a></li>
-            <li><a href="adoption.html">Tier adoptieren</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
-        
-        <h1>Tierheim Boomer 🐤</h1>
+        <div class="navbar">
+            <ul>
+                <li><a class="active" href="index.html">Startseite</a></li>
+                <li><a href="beschreibung.html">Beschreibung</a></li>
+                <li><a href="spenden.html">Tieren helfen</a></li>
+                <li><a href="adoption.html">Tier adoptieren</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+
+        <div class="logo">
+            <h1>Tierheim Boomer 🐤</h1>
+        </div>
+
         <p>In unserem <b>Tierheim</b> finden Tiere ein neues Zuhause.<br>Wir nehmen <b>entlaufende Tiere</b> auf, deren Besitzer nicht auffindbar sind.<br>Außerdem arbeiten wir mit einem <b>Tierarzt</b> zusammen, um die medizinische Versorgung sicherzustellen.</p>
         <p>Nun wollen wir einige unserer Bewohner vorstellen. Da ist beispielsweise die Katze <i>Kitty</i>, die bereits seit drei Jahren bei uns lebt.<br>Der Hund <i>Batman</i> findet leider kein neues Herrchen, da er bei einem Unfall ein Auge verloren hat.</p>
 
@@ -33,7 +39,8 @@
 
         <script>var snd=new Audio("audio/bruh.mp3")</script>
 
-        <button onclick="snd.play()">Bruh Moment</button>
-        
+        <div class="bruh">    
+            <button onmousedown="snd.currentTime=0;" onmouseup="snd.play();">Bruh Moment</button>
+        </div>
     </body>
 </html>
