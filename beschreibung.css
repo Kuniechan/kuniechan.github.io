@@ -25,26 +25,39 @@ p {
     color: #6e729f;
 }
 
-.dennis {
-    margin-left: -1px;
-    margin-top: -20px;
-    float: left;
+.unserteam ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
 }
 
-.dennis,p {
-    margin-top: -5px;
+.unserteam h1{
+    text-align: center;
 }
 
-.nick {
-    margin-right: -5px;
-    margin-top: -65px;
-    float: left;
+.unserteam li {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0;
+    margin: 5px;
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+    color: #333;
+    background-color: #f2eeed;
 }
 
-.alice {
-    margin-right: -5px;
-    margin-top: -65px;
-    float: left;
+.dennis,.nick,.alice {
+    border: 2px solid black;
+    margin-left: -5px;
+}
+
+.dennis,.nick,.alice p {
+    border: 2px solid black;
+    margin-left: -5px;
 }
 
 .navbar ul {
@@ -75,8 +88,4 @@ p {
 
 .navbar .active {
     background-color: #612f98;
-}
-
-.alice,.dennis,.nick {
-    border: 2px solid white;
 }
