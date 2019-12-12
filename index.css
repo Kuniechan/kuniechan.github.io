@@ -12,9 +12,8 @@ body {
 .logo h1 {
     color: white;
     font-family: Impact;
-    text-align: center;
+    text-align: right;
     font-size: 50px;
-    margin-right: -500px;
 }
 
 p {
@@ -117,8 +116,9 @@ figure {
     list-style-type: none;
     flex-wrap: wrap;
     margin-top: -100px;
+    padding-right: 50px;
 }
 
-.bilder .flexbreak1 {
-    flex-basis: 100%;
+.bruh {
+    margin-top: 20px;
 }
